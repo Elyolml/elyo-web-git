@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Elyolml</title>
+            <link rel="stylesheet" href="Style.css">
+            <link rel="icon" type="image" href="https://cdn4.iconfinder.com/data/icons/musical-instruments-22/50/1-512.png">
+            <script src="Eventos.js"></script>
+        </head>
+        <body>
+            <header>
+                <img height="300px" width="400px" src="Imagenes/Elyolml.jfif">
+                <h1>Elyolml</h1>
+            </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a target="_blank" href="Formulario.html">Suscribete</a>
+            <a href="Pruebas.html">Videos Cortos</a>
+        </nav>
+        <div>
+        <form>
+            <p>
+                <Label for="Nombre">Nombre</Label>
+                <input onkeyup="soltar()" placeholder="Ingrese su nombre" id="name" name="Nombre" type="text"/>
+            </p>        
+            <p>
+                <label for="Descripcion">Descripcion</label>
+                <textarea id="Descripcion" onkeyup="soltarc()" onkeydown="presionar()" align="left" name="Descripcion"></textarea>
+            </p>     
+            <p>
+                <label for="genero"><b>Seleccione su genero</b></label> <br/>
+                <input type="radio" name="genero" value="Hombre"/>Hombre <br/>
+                <input type="radio" name="genero" value="Mujer"/>Mujer <br/>
+                <input type="radio" name="genero" value="Nada"/>Nada
+            </p>
+            <p>
+                <label>Seleccione sus generos musicales favoritos</label></br>
+                <input type="checkbox" value="Metal">
+                <label>Metal</label></br>
+                <input type="checkbox" value="Rock">
+                <label>Rock</label></br>
+                <input type="checkbox" value="Jazz">
+                <label>Jazz</label></br>
+                <input type="checkbox" value="Blues">
+                <label>Blues</label></br>
+                
+            </p>
+            <p>
+                <label for="Region">Seleccione su Region</label><br/>
+                <select onchange="cambio(event)" id="Region" name="Region">
+                    <option value="Mexico">Mexico</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+            <p>
+                <label for="email">e-mail</label>
+                <input placeholder="algo@algomas.com" type="email"/>
+            </p>    
+            <p>
+                <label for="password">Ingrese un password</label>
+                <input type="password"/>
+            </p><br/>
+                <input type="submit" value="Terminar y enviar"/>
+                </form>
+            </div>
+            </body>
+    </html>

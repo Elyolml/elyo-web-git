@@ -1,0 +1,14 @@
+header{
+    background-color: blue;
+    border-width: 8px;
+}
+
+nav{
+    background-color: cornflowerblue;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+div{
+    background-color: skyblue;
+}
