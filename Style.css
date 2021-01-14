@@ -3,6 +3,10 @@ header{
     border-width: 8px;
 }
 
+h1{
+    text-align: center;
+}
+
 nav{
     background-color: cornflowerblue;
     text-align: center;
@@ -22,4 +26,8 @@ button:hover{
 button{
     border-radius: 30% ; 
     background-color: greenyellow;
+}
+
+body{
+    background-color:rgb(160, 159, 159);
 }
