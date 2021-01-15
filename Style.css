@@ -24,10 +24,21 @@ button:hover{
 }
 
 button{
+    transition: 300ms;
     border-radius: 30% ; 
     background-color: greenyellow;
 }
 
 body{
     background-color:rgb(160, 159, 159);
+}
+
+.submit{
+    background-color: red; 
+}
+.submit:hover{
+    transition: 300ms;
+    box-shadow: 3px 3px 2px;
+    background-color: rgb(107, 0, 0);
+    color:grey;
 }
