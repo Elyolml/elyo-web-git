@@ -24,7 +24,7 @@ button:hover{
 }
 
 button{
-    transition: 300ms;
+    transition: .7s;
     border-radius: 30% ; 
     background-color: greenyellow;
 }
@@ -35,6 +35,7 @@ body{
 
 .submit{
     background-color: red; 
+    transition: .7s;
 }
 .submit:hover{
     transition: 300ms;
