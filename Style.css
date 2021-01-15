@@ -13,6 +13,17 @@ nav{
     word-spacing: 5px;
 }
 
+a{
+    transition: 700ms;
+    color: blue;
+}
+
+a:hover{
+    transition: 400ms;
+    font-size: 20px;
+    color: rgb(20, 0, 107);
+}
+
 div{
     background-color: skyblue;
 }
