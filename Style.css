@@ -1,56 +1,81 @@
 header{
     background-color: blue;
     border-width: 8px;
+    padding: 10px;
 }
 
 h1{
     text-align: center;
+    padding: 10px;
 }
 
 nav{
     background-color: cornflowerblue;
     text-align: center;
     word-spacing: 5px;
+    padding: 10px;
 }
 
 a{
     transition: 700ms;
     color: blue;
+    padding: 10px;
 }
 
 a:hover{
     transition: 400ms;
     font-size: 20px;
     color: rgb(20, 0, 107);
+    padding: 10px;
 }
 
 div{
     background-color: skyblue;
+    padding: 10px;
 }
 
 button:hover{
     transition: 300ms;
     box-shadow: grey 7px 7px 3px;
     background-color: hotpink;
+    
 }
 
 button{
     transition: .7s;
     border-radius: 30% ; 
     background-color: greenyellow;
+    
 }
 
 body{
     background-color:rgb(160, 159, 159);
+    padding: 10px;
 }
 
 .submit{
     background-color: red; 
     transition: .7s;
+    padding: 10px;
 }
 .submit:hover{
     transition: 300ms;
     box-shadow: 3px 3px 2px;
     background-color: rgb(107, 0, 0);
     color:grey;
+    padding: 10px;
+}
+
+iframe{
+    transition: 300ms;
+    border-color: darkred;
+    padding: 10px
+}
+
+iframe:hover{
+    transition: 700ms;
+    width: 550px;
+    height: 350px;
+    box-shadow: 3px 3px 2px;
+    padding: 10px;
 }
